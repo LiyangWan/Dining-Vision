@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>All Restaurants</h2>
+  <form method="post">
+    <label>City: <input name="city" required></label>
+    <button type="submit">Go</button>
+  </form>
+
+  {% if restaurants is not none %}
+    <h3>Results ({{ restaurants|length }})</h3>
+    <table>
+      <tr><th>Name</th><th>Rating</th><th>Price Level</th><th>Lat</th><th>Lng</th></tr>
+      {% for r in restaurants %}
+      <tr>
+        <td>{{ r.name }}</td>
+        <td>{{ r.rating }}</td>
+        <td>{{ r.price_level }}</td>
+        <td>{{ r.lat }}</td>
+        <td>{{ r.lng }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+{% endblock %}

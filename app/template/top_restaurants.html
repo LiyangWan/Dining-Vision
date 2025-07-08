@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Top N Restaurants</h2>
+  <form method="post">
+    <label>City: <input name="city" required></label><br>
+    <label>Limit: <input name="limit" type="number" value="10" min="1" required></label><br>
+    <label>Max Price Level (optional): <input name="price_level" type="number" min="0"></label><br>
+    <button type="submit">Go</button>
+  </form>
+
+  {% if restaurants is not none %}
+    <h3>Top Results ({{ restaurants|length }})</h3>
+    <table>
+      <tr><th>Name</th><th>Rating</th><th>Price Level</th></tr>
+      {% for r in restaurants %}
+      <tr>
+        <td>{{ r.name }}</td>
+        <td>{{ r.rating }}</td>
+        <td>{{ r.price_level }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  {% endif %}
+{% endblock %}
