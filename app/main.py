@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template, redirect, url_for
 from app.apis.google_api import fetch_places, normalize
-from enrichment import get_city_context
+from app.enrichment import get_city_context
 import pandas as pd
 import os
 
