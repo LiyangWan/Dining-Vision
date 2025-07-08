@@ -11,7 +11,7 @@ pip install -r requirements.txt
 In Dining-Vision/.env file, update the variable GOOGLE_API_KEY with your own API key.
 
 4. Run the Flask server
-# Directly in python
+Directly in python
 python app/main.py
 
 5. API Usage Guide
@@ -22,7 +22,7 @@ Endpoint: GET /_health
 Description: Verifies the service is running.
 Response: OK (HTTP 200)
 
-2) All Restaurants
+3) All Restaurants
 Endpoint: GET /restaurants?city=<CITY>
 Description: Fetches, normalizes, deduplicates restaurant data for the specified city, saves CSV and JSON to data/, and returns the JSON file as a download.
 Data:
