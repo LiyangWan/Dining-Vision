@@ -1,0 +1,482 @@
+[
+  {
+    "name":"Gramercy Tavern",
+    "rating":4.6,
+    "price_level":4.0,
+    "lat":40.7384555,
+    "lng":-73.9885064,
+    "source":"google"
+  },
+  {
+    "name":"The Modern",
+    "rating":4.6,
+    "price_level":4.0,
+    "lat":40.761081,
+    "lng":-73.976753,
+    "source":"google"
+  },
+  {
+    "name":"RH Rooftop Restaurant at RH New York",
+    "rating":4.4,
+    "price_level":2.0,
+    "lat":40.73985,
+    "lng":-74.00639,
+    "source":"google"
+  },
+  {
+    "name":"53",
+    "rating":4.4,
+    "price_level":3.0,
+    "lat":40.7617694,
+    "lng":-73.9780863,
+    "source":"google"
+  },
+  {
+    "name":"Manhatta",
+    "rating":4.7,
+    "price_level":4.0,
+    "lat":40.7079974,
+    "lng":-74.0088826,
+    "source":"google"
+  },
+  {
+    "name":"Boucherie Union Square",
+    "rating":4.7,
+    "price_level":3.0,
+    "lat":40.7372552,
+    "lng":-73.9882246,
+    "source":"google"
+  },
+  {
+    "name":"ROBERT",
+    "rating":4.5,
+    "price_level":3.0,
+    "lat":40.767438,
+    "lng":-73.9819871,
+    "source":"google"
+  },
+  {
+    "name":"Scarpetta",
+    "rating":4.4,
+    "price_level":3.0,
+    "lat":40.7445876,
+    "lng":-73.9855838,
+    "source":"google"
+  },
+  {
+    "name":"The Smith",
+    "rating":4.4,
+    "price_level":2.0,
+    "lat":40.7310235,
+    "lng":-73.9886134,
+    "source":"google"
+  },
+  {
+    "name":"Le Coucou",
+    "rating":4.5,
+    "price_level":4.0,
+    "lat":40.7191167,
+    "lng":-74.0001861,
+    "source":"google"
+  },
+  {
+    "name":"Le Bernardin",
+    "rating":4.6,
+    "price_level":4.0,
+    "lat":40.7614218,
+    "lng":-73.9817558,
+    "source":"google"
+  },
+  {
+    "name":"Upland",
+    "rating":4.5,
+    "price_level":3.0,
+    "lat":40.7419313,
+    "lng":-73.984644,
+    "source":"google"
+  },
+  {
+    "name":"Peter Luger Steak House",
+    "rating":4.4,
+    "price_level":4.0,
+    "lat":40.7098774,
+    "lng":-73.9625052,
+    "source":"google"
+  },
+  {
+    "name":"Katz's Delicatessen",
+    "rating":4.5,
+    "price_level":2.0,
+    "lat":40.7222706,
+    "lng":-73.9873769,
+    "source":"google"
+  },
+  {
+    "name":"Jiang Nan NYC",
+    "rating":4.8,
+    "price_level":4.0,
+    "lat":40.7175581,
+    "lng":-73.9949693,
+    "source":"google"
+  },
+  {
+    "name":"MOE EATS NYC",
+    "rating":5.0,
+    "price_level":2.0,
+    "lat":40.7597437,
+    "lng":-73.982321,
+    "source":"google"
+  },
+  {
+    "name":"Petite Boucherie",
+    "rating":4.7,
+    "price_level":2.0,
+    "lat":40.7338976,
+    "lng":-74.0004402,
+    "source":"google"
+  },
+  {
+    "name":"The Landing",
+    "rating":4.6,
+    "price_level":2.0,
+    "lat":40.7511917,
+    "lng":-73.9921436,
+    "source":"google"
+  },
+  {
+    "name":"Eataly",
+    "rating":4.2,
+    "price_level":2.0,
+    "lat":40.7102704,
+    "lng":-74.0117145,
+    "source":"google"
+  },
+  {
+    "name":"Via Carota",
+    "rating":4.4,
+    "price_level":3.0,
+    "lat":40.7331437,
+    "lng":-74.0036671,
+    "source":"google"
+  },
+  {
+    "name":"The Malt House",
+    "rating":4.3,
+    "price_level":2.0,
+    "lat":40.7096649,
+    "lng":-74.0093444,
+    "source":"google"
+  },
+  {
+    "name":"Shukette",
+    "rating":4.7,
+    "price_level":null,
+    "lat":40.7471546,
+    "lng":-74.0005218,
+    "source":"google"
+  },
+  {
+    "name":"1803 NYC",
+    "rating":4.5,
+    "price_level":2.0,
+    "lat":40.7154539,
+    "lng":-74.0073301,
+    "source":"google"
+  },
+  {
+    "name":"Hole In The Wall - FiDi",
+    "rating":4.7,
+    "price_level":2.0,
+    "lat":40.7083126,
+    "lng":-74.0056165,
+    "source":"google"
+  },
+  {
+    "name":"Buddakan",
+    "rating":4.4,
+    "price_level":3.0,
+    "lat":40.7423312,
+    "lng":-74.0049692,
+    "source":"google"
+  },
+  {
+    "name":"Eleven Madison Park",
+    "rating":4.4,
+    "price_level":4.0,
+    "lat":40.7416519,
+    "lng":-73.9872353,
+    "source":"google"
+  },
+  {
+    "name":"O'Hara's Restaurant and Pub",
+    "rating":4.6,
+    "price_level":2.0,
+    "lat":40.7095008,
+    "lng":-74.0126642,
+    "source":"google"
+  },
+  {
+    "name":"The Liberty NYC",
+    "rating":4.2,
+    "price_level":2.0,
+    "lat":40.7498981,
+    "lng":-73.9855555,
+    "source":"google"
+  },
+  {
+    "name":"Trinity Place",
+    "rating":4.4,
+    "price_level":2.0,
+    "lat":40.708882,
+    "lng":-74.0114326,
+    "source":"google"
+  },
+  {
+    "name":"Chama Mama",
+    "rating":4.6,
+    "price_level":2.0,
+    "lat":40.7384413,
+    "lng":-73.9988997,
+    "source":"google"
+  },
+  {
+    "name":"Locanda Verde Tribeca",
+    "rating":4.4,
+    "price_level":3.0,
+    "lat":40.7198401,
+    "lng":-74.0099344,
+    "source":"google"
+  },
+  {
+    "name":"Au Cheval",
+    "rating":4.7,
+    "price_level":3.0,
+    "lat":40.7181813,
+    "lng":-74.0017436,
+    "source":"google"
+  },
+  {
+    "name":"COTE Korean Steakhouse",
+    "rating":4.6,
+    "price_level":4.0,
+    "lat":40.7413041,
+    "lng":-73.9912527,
+    "source":"google"
+  },
+  {
+    "name":"Temple Court",
+    "rating":4.5,
+    "price_level":4.0,
+    "lat":40.7113002,
+    "lng":-74.0067691,
+    "source":"google"
+  },
+  {
+    "name":"Banter NYC",
+    "rating":4.5,
+    "price_level":2.0,
+    "lat":40.7279472,
+    "lng":-74.0010194,
+    "source":"google"
+  },
+  {
+    "name":"Maison Close Restaurant",
+    "rating":4.8,
+    "price_level":null,
+    "lat":40.7232542,
+    "lng":-74.0037064,
+    "source":"google"
+  },
+  {
+    "name":"Harry's",
+    "rating":4.4,
+    "price_level":3.0,
+    "lat":40.7046763,
+    "lng":-74.0097371,
+    "source":"google"
+  },
+  {
+    "name":"Craft New York",
+    "rating":4.5,
+    "price_level":3.0,
+    "lat":40.7381658,
+    "lng":-73.9886678,
+    "source":"google"
+  },
+  {
+    "name":"Piccola Cucina Estiatorio",
+    "rating":4.6,
+    "price_level":2.0,
+    "lat":40.7246842,
+    "lng":-74.0031818,
+    "source":"google"
+  },
+  {
+    "name":"Da Claudio",
+    "rating":4.4,
+    "price_level":2.0,
+    "lat":40.7108256,
+    "lng":-74.0076351,
+    "source":"google"
+  },
+  {
+    "name":"Atera",
+    "rating":4.6,
+    "price_level":4.0,
+    "lat":40.7168689,
+    "lng":-74.0055916,
+    "source":"google"
+  },
+  {
+    "name":"Wo Hop",
+    "rating":4.4,
+    "price_level":1.0,
+    "lat":40.7142762,
+    "lng":-73.998921,
+    "source":"google"
+  },
+  {
+    "name":"Buena Vista Restaurant & Bar",
+    "rating":4.7,
+    "price_level":2.0,
+    "lat":40.7568688,
+    "lng":-73.9935611,
+    "source":"google"
+  },
+  {
+    "name":"Kochi",
+    "rating":4.6,
+    "price_level":null,
+    "lat":40.762018,
+    "lng":-73.9935294,
+    "source":"google"
+  },
+  {
+    "name":"Minetta Tavern",
+    "rating":4.5,
+    "price_level":3.0,
+    "lat":40.73003,
+    "lng":-74.000666,
+    "source":"google"
+  },
+  {
+    "name":"Golden Diner",
+    "rating":4.4,
+    "price_level":2.0,
+    "lat":40.7124191,
+    "lng":-73.9942776,
+    "source":"google"
+  },
+  {
+    "name":"Salinas Restaurant",
+    "rating":4.7,
+    "price_level":3.0,
+    "lat":40.7437056,
+    "lng":-74.0031569,
+    "source":"google"
+  },
+  {
+    "name":"Tamarind Tribeca",
+    "rating":4.2,
+    "price_level":3.0,
+    "lat":40.7191069,
+    "lng":-74.0090265,
+    "source":"google"
+  },
+  {
+    "name":"Burger & Lobster Bryant Park",
+    "rating":4.5,
+    "price_level":2.0,
+    "lat":40.7559517,
+    "lng":-73.9851995,
+    "source":"google"
+  },
+  {
+    "name":"Junoon",
+    "rating":4.3,
+    "price_level":4.0,
+    "lat":40.7429351,
+    "lng":-73.9904974,
+    "source":"google"
+  },
+  {
+    "name":"Serafina Tribeca",
+    "rating":4.3,
+    "price_level":2.0,
+    "lat":40.7155048,
+    "lng":-74.0089451,
+    "source":"google"
+  },
+  {
+    "name":"Per Se",
+    "rating":4.5,
+    "price_level":4.0,
+    "lat":40.7682178,
+    "lng":-73.9828988,
+    "source":"google"
+  },
+  {
+    "name":"Schilling Restaurant & Bar",
+    "rating":4.4,
+    "price_level":3.0,
+    "lat":40.7085845,
+    "lng":-74.0140166,
+    "source":"google"
+  },
+  {
+    "name":"DK Restaurant NYC",
+    "rating":4.3,
+    "price_level":3.0,
+    "lat":40.7526884,
+    "lng":-73.9905028,
+    "source":"google"
+  },
+  {
+    "name":"Two Hands",
+    "rating":4.3,
+    "price_level":2.0,
+    "lat":40.7177931,
+    "lng":-74.0054175,
+    "source":"google"
+  },
+  {
+    "name":"ONE Dine at One World Observatory",
+    "rating":4.3,
+    "price_level":3.0,
+    "lat":40.7130062,
+    "lng":-74.013173,
+    "source":"google"
+  },
+  {
+    "name":"Thai Diner",
+    "rating":4.4,
+    "price_level":2.0,
+    "lat":40.7207143,
+    "lng":-73.99565,
+    "source":"google"
+  },
+  {
+    "name":"Catch NYC",
+    "rating":4.0,
+    "price_level":3.0,
+    "lat":40.7402523,
+    "lng":-74.0060934,
+    "source":"google"
+  },
+  {
+    "name":"Uncle Lou \u5feb\u6a02\u4eba",
+    "rating":4.5,
+    "price_level":2.0,
+    "lat":40.7162295,
+    "lng":-73.9992492,
+    "source":"google"
+  },
+  {
+    "name":"Joseph's Restaurant",
+    "rating":4.5,
+    "price_level":3.0,
+    "lat":40.7048499,
+    "lng":-74.0095927,
+    "source":"google"
+  }
+]
