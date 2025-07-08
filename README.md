@@ -66,3 +66,6 @@ Start Command: gunicorn app.main:app --bind 0.0.0.0:$PORT
 Environment Variables: GOOGLE_API_KEY
 
 Render will provide a public URL for your service.
+
+8.Scripts
+A fetch_and_store.py file is provided for quick and easy test API call and All Restaurant data download
