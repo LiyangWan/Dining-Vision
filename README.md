@@ -22,11 +22,11 @@ Description: Verifies the service is running.
 Response: OK (HTTP 200)  
 
 3) All Restaurants:  
-Endpoint: GET /restaurants?city=<CITY>  
+Endpoint: GET /restaurants?city=CITY  
 Description: Fetches, normalizes, deduplicates restaurant data for the specified city, saves CSV and JSON to data/, and returns the JSON file as a download.  
 Data: The data will be saved in both .csv and .json format in Dining-Vision/data  
 Query Parameters:  
-city  
+CITY 
   
 Example:  
 curl -v "http://localhost:5000/restaurants?city=NYC"  
@@ -45,7 +45,7 @@ curl "http://localhost:5000/restaurants/top?city=SF&limit=10"
 curl "http://localhost:5000/restaurants/top?city=NYC&limit=20&price_level=4"  
   
 4) City Statistics:   
-Endpoint: GET /stats/city/<CITY>  
+Endpoint: GET /stats/city/CITY  
 Description: Returns summary statistics (restaurant count, average rating, average price level) plus contextual enrichment (population, median income, area, etc.) for the specified city.  
   
 Path Parameter:  
