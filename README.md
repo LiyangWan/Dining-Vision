@@ -2,19 +2,23 @@
 Backend Pipeline for Restaurant Intelligence using Public APIs
 
 1. Prerequisites
+   
 Python 3.10+
 
-2. Dependencies
+3. Dependencies
+
 pip install -r requirements.txt
 
-3. Configure API keys
+5. Configure API keys
+
 In Dining-Vision/.env file, update the variable GOOGLE_API_KEY with your own API key.
 
-4. Run the Flask server
-Directly in python
+7. Run the Flask server
+
+Directly in python:
 python app/main.py
 
-5. API Usage Guide
+9. API Usage Guide
 Below are the available endpoints. All responses are in 5JSON.
 
 1) Health Check
