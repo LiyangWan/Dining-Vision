@@ -31,7 +31,7 @@ Example:
 curl -v "http://localhost:5000/restaurants?city=NYC"  
 
 3) Top-N Restaurants:  
-Endpoint: GET /restaurants/top?city=CITY&limit=LIMIT&price_level=PRICE_LEVEL 
+Endpoint: GET /restaurants/top?city=CITY&limit=LIMIT&price_level=PRICE_LEVEL  
 Description: Returns the top-N restaurants by rating in the given city, optionally filtered by maximum price level.  
 Parameters:  
 city (required)  
