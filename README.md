@@ -25,21 +25,18 @@ Response: OK (HTTP 200)
 Endpoint: GET /restaurants?city=CITY  
 Description: Fetches, normalizes, deduplicates restaurant data for the specified city, saves CSV and JSON to data/, and returns the JSON file as a download.  
 Data: The data will be saved in both .csv and .json format in Dining-Vision/data  
-Query Parameters:  
+Parameters:  
 CITY 
-  
 Example:  
 curl -v "http://localhost:5000/restaurants?city=NYC"  
 
 3) Top-N Restaurants:  
-Endpoint: GET /restaurants/top?city=<CITY>&limit=<N>[&price_level=<P>]  
+Endpoint: GET /restaurants/top?city=CITY&limit=LIMIT&price_level=PRICE_LEVEL 
 Description: Returns the top-N restaurants by rating in the given city, optionally filtered by maximum price level.  
-  
-Query Parameters:  
+Parameters:  
 city (required)  
 limit (optional, default 10): Number of top entries to return  
 price_level (optional): Maximum price_level (integer)  
-  
 Examples:  
 curl "http://localhost:5000/restaurants/top?city=SF&limit=10"  
 curl "http://localhost:5000/restaurants/top?city=NYC&limit=20&price_level=4"  
@@ -47,8 +44,7 @@ curl "http://localhost:5000/restaurants/top?city=NYC&limit=20&price_level=4"
 4) City Statistics:   
 Endpoint: GET /stats/city/CITY  
 Description: Returns summary statistics (restaurant count, average rating, average price level) plus contextual enrichment (population, median income, area, etc.) for the specified city.  
-  
-Path Parameter:  
+Parameter:  
 CITY  
 
 Example:  
